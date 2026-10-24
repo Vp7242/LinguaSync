@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LinguaSync</string>
+
+    <!-- Top bar -->
+    <string name="clear_history">Clear history</string>
+    <string name="about">About</string>
+    <string name="back">Back</string>
+
+    <!-- Language selection -->
+    <string name="from_label">From</string>
+    <string name="to_label">To</string>
+    <string name="swap_languages">Swap languages</string>
+    <string name="select_input_language">Select input language</string>
+    <string name="select_output_language">Select output language</string>
+    <string name="language_auto">Auto-detect</string>
+    <string name="language_auto_hint">Listens in your phone\'s speech language</string>
+    <string name="selected">Selected</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Status -->
+    <string name="status_idle">Tap the mic and start speaking</string>
+    <string name="status_listening">Listening…</string>
+    <string name="status_listening_hint">Speak now</string>
+    <string name="status_processing">Translating…</string>
+    <string name="status_speaking">Speaking…</string>
+    <string name="downloading_language_pack">Downloading language pack (one time)…</string>
+
+    <!-- Mic button -->
+    <string name="start_translation">Start translation</string>
+    <string name="stop_translation">Stop translation</string>
+
+    <!-- Conversation -->
+    <string name="empty_title">Ready when you are</string>
+    <string name="empty_body">Pick your languages, tap the mic, and your translations will appear here. Say \"stop\" or \"exit\" to end a session.</string>
+    <string name="arrow_between_languages">%1$s → %2$s</string>
+    <string name="play_translation">Play translation</string>
+    <string name="copy_translation">Copy translation</string>
+    <string name="copied">Copied to clipboard</string>
+    <string name="dismiss">Dismiss</string>
+
+    <!-- Errors -->
+    <string name="error_not_understood">Could not understand! Please try again.</string>
+    <string name="error_network">Could not reach the speech service. Check your internet connection.</string>
+    <string name="error_permission">Microphone permission is required to translate speech.</string>
+    <string name="error_recognition_unavailable">Speech recognition is not available on this device.</string>
+    <string name="error_audio">There was a problem with the microphone.</string>
+    <string name="error_generic">Something went wrong with speech recognition. Please try again.</string>
+    <string name="error_translation">Translation failed. Check your internet connection (needed once to download a language pack).</string>
+    <string name="error_tts_unavailable">No text-to-speech voice is installed for %1$s. Install one in your phone\'s Text-to-speech settings.</string>
+
+    <!-- About -->
+    <string name="about_title">About LinguaSync</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_description">LinguaSync translates your voice from one language to another in real time. Choose the input and output languages, then start speaking – you get the translated text on screen and spoken aloud.</string>
+    <string name="about_how_title">How it works</string>
+    <string name="about_step_1">Your speech is converted to text by Android\'s speech recognizer.</string>
+    <string name="about_step_2">The text is translated on your device with ML Kit.</string>
+    <string name="about_step_3">The translation is read aloud with Android text-to-speech.</string>
+    <string name="about_languages_title">Supported languages</string>
+    <string name="about_credit">Android port of the open-source Python project “real-time-voice-translator”, released under the GNU GPL v2.</string>
+    <string name="about_open_source">View original project</string>
+</resources>
